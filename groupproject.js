@@ -91,7 +91,7 @@ function register() {
     document.getElementById("demo").innerHTML = PlayersData;
 
 
-    validateForm()
+    validateForm();
     buttoncontrols();
 
 

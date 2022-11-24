@@ -86,12 +86,12 @@ function register() {
     const PlayersData = [Fname, Lname, Email, DOfB, Street, City, Town, Country, Images, EduLevel,EduLevel1 ,Gender]; //passes data into array
     PlayersData2 = [Fname + " " + Lname]; //passes data from array into textarea
 
-    document.getElementById("demo").innerHTML = PlayersData; //Prints data from array
-
-    document.getElementById("playername").innerHTML = PlayersData2;
-
-
     
+    document.getElementById("playername").innerHTML = PlayersData2;
+    document.getElementById("demo").innerHTML = PlayersData;
+
+
+    //validateForm()
     buttoncontrols();
 
 
